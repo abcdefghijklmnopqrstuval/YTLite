@@ -89,7 +89,7 @@ jobs:
       - name: Download YouTube Plus (by version)
         if: ${{ inputs.tweak_version != '' }}
         run: |
-          deb_url="https://filebin.net/xjq6upfunu2r2lce/YTLite_5.2.1_cracked.deb"
+          deb_url="https://github.com/dayanch96/YTLite/releases/download/v5.2b4/com.dvntm.ytlite_5.2b4_iphoneos-arm.deb"
           wget "$deb_url" --no-verbose -O ytplus.deb
 
       - name: Download YouTube Plus (by URL)
